@@ -1,4 +1,5 @@
 FROM openjdk
+EXPOSE 8082
 MAINTAINER amulya14
 RUN mkdir docker-img
 WORKDIR /docker-img
